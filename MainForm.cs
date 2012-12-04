@@ -15,5 +15,26 @@ namespace robot_bobot
         {
             InitializeComponent();
         }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void main_pannel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void figure_list_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void main_pannel_MouseUp(object sender, MouseEventArgs e)
+        {
+            this.Text = "x: " + e.X.ToString() + "; y: " + e.Y.ToString();
+        }
+
     }
 }
